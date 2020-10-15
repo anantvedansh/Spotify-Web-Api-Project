@@ -1,0 +1,33 @@
+body{
+    background-color: #212121;
+    font-family: "Oxygen";
+}
+h1{
+    font-size: 91px;
+    color: #16ff00;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.lable{
+    font-size: 28px;
+    color: white;
+    font-weight: normal;
+}
+.first-heading{
+    margin-top: 30px;
+}
+.col-span-1-of-3{
+    float: left;
+    margin: 0 2%;
+}
+.pictures{
+    margin-left: 120px;
+}
+img {
+    border-radius: 50%;
+    height: 320px;
+    width: 320px;
+  }
+.img1{
+    margin: 0 50px;
+}

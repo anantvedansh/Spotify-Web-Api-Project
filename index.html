@@ -4,11 +4,42 @@
 <head>
   <meta charset="utf-8">
   <title>Spotify API with jQuery Example</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="grid.css">
+  <link rel="stylesheet" href="nav.css">
+  <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet" />
 </head>
 
 <body>
+  <div class="row-nav">
+    <div class="navigation">
+      <nav>
+        <div class="col span-1-of-2">
+          <ul class="rite">
+            <li><a href="#" class="nav-bg">Home</a></li>
+            <li><a href="#">Recommendations</a></li>
+            <li><a href="#">Playlists</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
   <div id="content">
-
+    <h1 class="first-heading">Your Top Artists</h1>
+  </div>
+  <div class="pictures">
+    <div class="col-span-1-of-3 imgs">
+      <img src="pictures/lauv.jpg">
+      <h3 class="lable" style="text-align: center;">Lauv</h3>
+    </div>
+    <div class="col-span-1-of-3" style="margin: 0 90px;">
+      <img src="pictures/sia.jfif">
+      <h3 class="lable" style="text-align: center;">Sia</h3>
+    </div>
+    <div class="col-span-1-of-3 imgs">
+      <img src="pictures/khalid.jfif">
+      <h3 class="lable" style="text-align: center;">Khalid</h3>
+    </div>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="script.js" charset="utf-8"></script>
