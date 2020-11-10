@@ -1,6 +1,9 @@
 body{
     background-color: #212121;
     font-family: "Oxygen";
+    /* background: linear-gradient(-45deg, #BFD641, #62e251, #e62aaa, #7b33aa);
+    background-color:#6402a5; */
+    margin-top: 0;
 }
 h1{
     font-size: 91px;
@@ -23,8 +26,12 @@ h1{
 .pictures{
     margin-left: 120px;
 }
-img {
+.artist {
     border-radius: 50%;
+    height: 320px;
+    width: 320px;
+  }
+.song {
     height: 320px;
     width: 320px;
   }
