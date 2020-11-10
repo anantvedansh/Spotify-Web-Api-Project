@@ -22,7 +22,7 @@ $( document ).ready(function() {
     console.log(`accessToken ${accessToken}`);
 
     //api call to get artists
-    fetch('https://api.spotify.com/v1/me/top/artists?time_range=short_term&limit=3&offset=0', {
+    fetch('https://api.spotify.com/v1/me/top/artists?time_range=long_term&limit=3&offset=0', {
             method: 'GET',
             headers: { 'Authorization' : 'Bearer ' + accessToken}
         })
@@ -46,7 +46,7 @@ $( document ).ready(function() {
         });
 
     //api call to get songs
-    fetch('https://api.spotify.com/v1/me/top/tracks?time_range=short_term&limit=3&offset=0', {
+    fetch('https://api.spotify.com/v1/me/top/tracks?time_range=long_term&limit=3&offset=0', {
             method: 'GET',
             headers: { 'Authorization' : 'Bearer ' + accessToken}
         })
