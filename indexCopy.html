@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Spotify API</title>
+  <link rel="stylesheet" href="index/main.css">
+  <link rel="stylesheet" href="index/grid.css">
+  <link rel="stylesheet" href="index/nav.css">
+  <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index/homepageCopy.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <div class="row-nav" >
+    <div class="navigation" style="background-color: #212121; padding-top: 23px; top: 0;">
+      <nav>
+        <div class="col span-1-of-2">
+          <ul class="rite">
+            <li style="margin-right: 40px;"><a href="#" class="nav-bg">Home</a></li>
+            <li style="margin-left: 0; margin-right: 20px;"><a href="reco.html" style="text-align: center;">Recommendations</a></li>
+            <li style="margin-left: 0; margin-right: 0;"><a href="playlist.html">Playlists</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div name="1" style="height: auto; overflow: auto;">
+    <div id="content">
+      <h1 class="first-heading">Your Top Artists</h1>
+    </div>
+    <div class="pictures"  style="height: 100%;">
+      <div class="col-span-1-of-3 imgs">
+        <img src="" id="artist.image1" class="artist">
+        <h3 class="lable" style="text-align: center;" id="artist.name1"></h3>
+      </div>
+      <div class="col-span-1-of-3" style="margin: 0 90px;">
+        <img src="" id="artist.image2" class="artist">
+        <h3 class="lable" style="text-align: center;" id="artist.name2"></h3>
+      </div>
+      <div class="col-span-1-of-3 imgs">
+        <img src="" id="artist.image3" class="artist">
+        <h3 class="lable" style="text-align: center;" id="artist.name3"></h3>
+      </div>
+    </div>
+  </div>
+  <div name="2" style="height: auto; overflow: auto; padding-bottom: 30px;"> 
+    <div id="content">
+      <h1 class="first-heading">Your Top Songs</h1>
+    </div>
+    <div class="pictures"  style="height: 100%;">
+      <div class="col-span-1-of-3 imgs">
+        <img src="" id="song.image1" class="song">
+        <h3 class="lable" style="text-align: center;" id="song.name1"></h3>
+      </div>
+      <div class="col-span-1-of-3" style="margin: 0 90px;">
+        <img src="" id="song.image2" class="song">
+        <h3 class="lable" style="text-align: center;" id="song.name2"></h3>
+      </div>
+      <div class="col-span-1-of-3 imgs">
+        <img src="" id="song.image3" class="song">
+        <h3 class="lable" style="text-align: center;" id="song.name3"></h3>
+      </div>
+    </div>
+  </div>
+  <div name="3" style="height: auto; overflow: auto; padding-bottom: 30px;"> 
+    <div id="content">
+      <h1 class="first-heading">Most Played Song</h1>
+    </div>
+    <div class="pictures"  style="height: 100%;">
+      <div class="col-span-1-of-2 imgs" style="float: left;">
+        <img src="" id="song.image4" class="song">
+        <h3 class="lable" style="text-align: center;" id="song.name4"></h3>
+      </div>
+      <div class="col-span-1-of-2" style="margin: 0 90px; padding-left: 315px; padding-top: 15px;">
+        <table style="table-layout: fixed;">
+          <tr>
+            <td style="width: 50px;">
+              <h2 class="final-heading" style="font-size: 32px; color: white; font-weight: bold; margin-bottom: 10px;">Artist: </h2>
+            </td>
+            <td>
+              <h3 class="lable" style="font-size: 28px; color: white; font-weight: normal; margin-bottom: 10px; padding-left: 0px;" id="artist.name4"></h3>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h2 class="final-heading" style="font-size: 32px; color: white; font-weight: bold; margin-top: 15px;">Album: </h2>
+            </td>
+            <td>
+              <h3 class="lable" style="font-size: 28px; color: white; font-weight: normal; margin-top: 15px; padding-left: 0px; padding-top: 4px;" id="album.name"></h3>           
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h2 class="final-heading" style="font-size: 32px; color: white; font-weight: bold;">Popularity: </h2>
+            </td>
+          </tr>
+               
+        </table>
+        <progress id="popularity" style="width: 500px; height: 30px;" value="" max="100"></progress>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
