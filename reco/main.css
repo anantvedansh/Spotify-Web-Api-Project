@@ -1,0 +1,123 @@
+body{
+    background-color: #212121;
+    font-family: "Oxygen";
+    /* background: linear-gradient(-45deg, #BFD641, #62e251, #e62aaa, #7b33aa);
+    background-color:#6402a5; */
+    margin-top: 0;
+}
+h1{
+    font-size: 91px;
+    color: #1ed760;
+    font-weight: bold;
+    margin-left: 40px;
+}
+h2{
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+}
+div[name=3]{
+    height: auto; overflow: auto; padding-bottom: 30px;
+}
+.lable{
+    font-size: 28px;
+    color: white;
+    font-weight: normal;
+}
+.first-heading{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.col-span-1-of-3{
+    float: left;
+    margin: 0 2%;
+}
+.pictures{
+    margin-left: 120px;
+}
+.artist {
+    border-radius: 50%;
+    height: 320px;
+    width: 320px;
+  }
+.song {
+    height: 320px;
+    width: 320px;
+  }
+.img1{
+    margin: 0 50px;
+}
+
+.likebtn{
+    background-color: #1ed760;
+    color: white;
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 320px;
+    height: 30px;
+    margin-left: 120px;
+    margin-bottom: 35px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.likebtn:hover , .likebtn:active {
+  background-color:#329c57;
+
+}
+/* dropdown menu */
+
+.dropbtn {
+    background-color: #1ed760;
+    color: white;
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 320px;
+    height: 30px;
+    margin-left: 120px;
+    margin-bottom: 35px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9c5;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 120px;
+    margin-bottom: 35px;
+    width: 288px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f9f9f9c5;
+    padding: 12px 16px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    padding: 12px 16px;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color:#2da357;
+  }
